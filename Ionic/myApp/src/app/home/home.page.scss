@@ -1,3 +1,11 @@
+ion-content {
+  --ion-background-color: transparent; /* Remove o fundo branco */
+  background-image: url("../../assets/imgs/teste.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 #container {
   text-align: center;
 
@@ -24,4 +32,24 @@
 
 #container a {
   text-decoration: none;
+}
+
+ion-card {
+  background-color: rgb(8, 56, 56);
+}
+
+#title1,
+#title2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 26px;
+  color: #fff;
+}
+
+#title1 {
+  color: red;
+}
+
+#title2 {
+  color: rgb(85, 11, 11);
 }
